@@ -7,6 +7,7 @@ body{
     background: url('../IMAGES/bg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .formbg{
@@ -16,9 +17,12 @@ body{
     /* background-color: #213555; */
     width: 360px;
     height: 420px;
-    margin-top: 110px;
-    margin-left: 500px;
+    /* margin-top: 110px;
+    margin-left: 500px; */
     position : relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
     display: flex;
 }
 
@@ -104,17 +108,6 @@ body{
     z-index: 10; 
     font-size: 23px;
 }
-/* #_2{
-    color: aliceblue;
-    margin-top: 214px;
-    margin-left: 50px;
-    position: absolute;
-    font-family: 'Barriecito', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-} */
 
 .formbg .form1 #btn_1{
     position: relative;
