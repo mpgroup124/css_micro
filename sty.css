@@ -1,0 +1,31 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    position: relative ;
+    align-items: center;
+    width: 100vmax;
+    height: 400px;
+    background-color: aqua;
+    gap: 10px;
+}
+
+.cont1{
+    background-color: blue;
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+.cont2{
+    background-color: brown;
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+.cont3{
+    background-color: green;
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
+}
